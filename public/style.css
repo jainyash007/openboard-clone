@@ -4,6 +4,28 @@
     padding: 0;
 }
 
+/* light and dark theme */
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  /* Styles for dark mode */
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button {
+    margin: 20px 20px 12px 12px;
+    position : relative ;
+    display : inline-block;
+    height : 50px;
+    background-color: grey;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
 /* hamburgermenu  */
 .options-cont {
     height: 4rem;
