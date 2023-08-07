@@ -10,15 +10,12 @@ let upload = document.querySelector(".upload");
 let pencilFlag = false;
 let eraserFlag = false;
 
-// dark and light theme
-// Get the toggle button element
+// dark and light theme -- Get the toggle button element
 const toggleBtn = document.getElementById("toggle-btn");
-
 // Add event listener for click events
 toggleBtn.addEventListener("click", function () {
   // Get the body element
   const body = document.body;
-
   // Toggle the dark mode class
   body.classList.toggle("dark-mode");
 });
